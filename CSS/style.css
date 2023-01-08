@@ -1,0 +1,31 @@
+/* IMPORT */
+
+/* COLORS */
+:root
+{
+    --white :#fff;
+    --black :#000;
+
+    --background :#fff;
+}
+/**/
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    height: 100vh;
+    background-color: var(--background);
+}
+/* ###  CODE  ### */
+
+
+
+
+
+
+
+
+
