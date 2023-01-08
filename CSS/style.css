@@ -1,4 +1,5 @@
-/* IMPORT */
+/*  #################### @ ####################  */
+/* IMPORT POLICE */
 
 /* COLORS */
 :root
@@ -6,24 +7,93 @@
     --white :#fff;
     --black :#000;
 
-    --background :#fff;
+    --background :#464545;
+    --colorLien : #1eb3f1;
+    --colorLienFooter : #171616;
 }
-/**/
+/* #@# */
 *
 {
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 body
 {
     height: 100vh;
     background-color: var(--background);
 }
-/* ###  CODE  ### */
+
+/*  #################### @ ####################  */
+/*  #################### @ ####################  */
+/*                 ###  CODE  ###                */
+/*  #################### @ ####################  */
+/*  #################### @ ####################  */
+
+
+
+/* NavBar */
+header
+{
+    height: 50vh;
+}
+.logo
+{
+    color: var(--white);
+    user-select: none;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+nav, ul, li, a
+{
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+    text-decoration: none;
+}
+
+.lien
+{
+    padding: 1em;
+    margin: 10px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+}
+
+.dataClient
+{
+    margin: 0px;
+    padding: 1em .5em;
+}
+
+.lien:hover
+{
+    color: var(--colorLien);
+    transition: .5s;
+}
+/* ## */
 
 
 
 
+
+/* Footer */
+.lienFooter
+{
+    color: var(--colorLienFooter);
+}
+
+.lienFooter:hover
+{
+    color: var(--colorLien);
+    transition: .5s;
+}
+
+/*  #################### @ ####################  */
+/*  #################### @ ####################  */
+/*  #################### @ ####################  */
 
 
 
