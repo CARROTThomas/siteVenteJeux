@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?= $pageTitle ?></title>
-    <link rel="website icon" type="png" href="img/controller">
+    <link rel="website icon" type="png" href="img/controller.png">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
@@ -46,24 +46,25 @@
 <!--  Footer  -->
 <section class="footer">
     <div class="container d-flex flex-column">
-        <div class="row mb-5">
+        <hr>
+        <div class="row">
             <span class="logo" href="index.php">LOGO</span>
         </div>
-        <div class="row d-flex justify-content-between mb-4">
+        <div class="row d-flex justify-content-between">
             <div class="col-4">
                 <h2 class="text-secondary">Produits</h2>
                 <ul>
                     <li class="d-flex align-items-center"><a href="#" class="lienFooter">Tendances</a></li>
                     <li class="d-flex align-items-center"><a href="#" class="lienFooter">PC</a></li>
-                    <li class="d-flex align-items-center"><a href="#" class="lienFooter">Xbox</a></li>
                     <li class="d-flex align-items-center"><a href="#" class="lienFooter">Playstation</a></li>
+                    <li class="d-flex align-items-center"><a href="#" class="lienFooter">Xbox</a></li>
                 </ul>
             </div>
             <div class="col-4">
                 <h2 class="text-secondary">Conditions</h2>
                 <ul>
-                    <li><a href="#" class="lienFooter">Condition de vente</a></li>
                     <li><a href="#" class="lienFooter">Politique de confidentalité</a></li>
+                    <li><a href="#" class="lienFooter">Condition de vente</a></li>
                     <li><a href="#" class="lienFooter">Nous contacter</a></li>
                     <li><a href="#" class="lienFooter">FAQ</a></li>
                 </ul>

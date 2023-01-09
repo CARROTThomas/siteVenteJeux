@@ -1,7 +1,7 @@
 <?php
 $adresseServeurMySQL = "localhost";
-$nomDeDatabase = "siteVenteJeux";
-$username = "player1";
+$nomDeDatabase = "gaming";
+$username = "thom";
 $password = "thomas123";
 
 $pdo = new PDO("mysql:host=$adresseServeurMySQL;dbname=$nomDeDatabase",

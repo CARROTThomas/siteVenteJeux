@@ -20,7 +20,6 @@
 }
 body
 {
-    height: 100vh;
     background-color: var(--background);
 }
 
@@ -35,7 +34,8 @@ body
 /* NavBar */
 header
 {
-    height: 50vh;
+    height: 20vh;
+    background-color: var(--background);
 }
 .logo
 {
@@ -55,7 +55,7 @@ nav, ul, li, a
 
 .lien
 {
-    padding: 1em;
+    padding: 0px;
     margin: 10px;
     color: var(--white);
     display: flex;
@@ -74,9 +74,36 @@ nav, ul, li, a
     transition: .5s;
 }
 /* ## */
+.homePageSearchGame
+{
+    height: auto;
+    margin-bottom: 50px;
+    width: 80%;
+}
+.inputSearchGame
+{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid black;
+}
+.buttonSearchHomePage
+{
+    background-color: orangered;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: .5em;
+    border: none;
+    margin-left: 5px;
+}
 
-
-
+.containerJeux
+{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
 
 
 /* Footer */
